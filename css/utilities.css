@@ -1,0 +1,68 @@
+/* Flexbox utility classes */
+.flex{
+    display: flex;
+}
+ 
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-bottom{
+    justify-content: flex-end;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+/* Buttons Utility classes */
+.btn{
+    background-color: #199319;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.3rem;
+    font-size: 1.2rem;
+    border: 2px solid transparent; 
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background: var(--primary);
+    color: var(--pure);
+    border-radius: 6px;
+    transition: all .5s ease-in-out;
+}
+
+.btn-primary:hover{
+    background: var(--dark);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-hover-primary{ 
+    background: var(--dark);
+    color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 6px;
+    transition: all .5s ease-in-out;
+}
+
+.btn-hover-primary:hover{
+    background: var(--primary);
+    color: var(--light);
+}
+
+/* Text utility classes */
+.text-primary{
+    color: var(--primary);
+}
