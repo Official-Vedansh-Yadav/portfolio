@@ -1,0 +1,19 @@
+@media only screen and (max-width:903px) and (min-width:450px){  
+    .card-wrapper{
+        grid-template-columns: repeat(2,40vw);
+        grid-template-rows: 3;
+    }
+}
+
+@media only screen and (max-width:449px){
+    .card-wrapper{
+        grid-template-columns: repeat(1,80vw);
+        grid-template-rows: 6;
+    }
+}
+
+@media only screen and (max-width:780px){
+    #about .container{
+        flex-direction: column !important;
+    }
+}
