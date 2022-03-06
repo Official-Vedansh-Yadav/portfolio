@@ -1,9 +1,5 @@
-@media only screen and (max-width:903px) and (min-width:450px){  
-    .card-wrapper{
-        grid-template-columns: repeat(2,40vw);
-        grid-template-rows: 3;
-    }
-    .header{
+@media only screen and (max-width:903px){
+    header{
         clip-path: none; 
     }
     .flex-column-auto{
@@ -14,6 +10,22 @@
     }
     .w-100-auto{
         width: 100vw;
+    }
+    .slide h1{
+        font-size: 20px;
+    }
+    .slide p{
+        font-size: 15px;
+    }
+    .vtt{
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width:903px) and (min-width:450px){  
+    .card-wrapper{
+        grid-template-columns: repeat(2,40vw);
+        grid-template-rows: 3;
     }
 }
 
