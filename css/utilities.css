@@ -23,6 +23,10 @@
     flex: 1;
 }
 
+.flex-column-auto{
+    flex-direction: row;
+}
+
 /* Buttons Utility classes */
 .btn{
     background-color: #199319;
