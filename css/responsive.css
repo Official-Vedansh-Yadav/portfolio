@@ -30,7 +30,8 @@
        display: none !important;
     }
     .hamberger{
-        z-index: 11;
+        z-index: 11 !important;
+    }
     .hero{
         margin-top: 80px;
     }
