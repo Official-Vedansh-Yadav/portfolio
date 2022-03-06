@@ -18,8 +18,48 @@
         font-size: 15px;
     }
     .vtt{
-        font-size: 17px !important;
+        font-size: 15px !important;
     }
+    .vct-p{
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .container nav{
+       display: none !important;
+    }
+    .hero{
+        margin-top: 80px;
+    }
+    .hero .left{
+        width: 30%;
+    }
+    .hero .right{
+        width: 70%;
+    }
+    .hero .left img{
+        max-height: 400px !important;
+        width: 100%;
+    }
+    .hero .right h6{
+        font-size: 1rem;
+        color: var(--primary);
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero .right h1{
+        font-size: 3rem;
+        font-weight: 100;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    
+    .hero .right p{
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+    
 }
 
 @media only screen and (max-width:903px) and (min-width:450px){  
