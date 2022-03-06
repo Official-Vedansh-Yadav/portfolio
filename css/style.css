@@ -31,12 +31,11 @@
     position: absolute;
     top: 30px;
     right: 40px;
-    z-index: 11;
+    z-index: -11;
     background: none;
     border: none;
     outline: none;
     cursor: pointer;
-    display: none;
 }
 
 .hamberger img{
