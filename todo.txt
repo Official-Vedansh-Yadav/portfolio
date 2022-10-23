@@ -1,0 +1,4 @@
+1.) Make pages and add links for collection section
+2.) Add Links and edit lorem text in the my service section
+3.) Search and apply stylish and good looking font to texts in the website
+4.) Check for some more responsiveness
